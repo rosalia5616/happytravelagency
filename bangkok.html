@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thailand Travel Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #fffaf4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f4e2d8;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #b85c38;
+        }
+
+        .intro img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .city-section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff3e6;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .city-section h2 {
+            color: #b85c38;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .destination {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .destination img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .destination h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .destination p {
+            text-align: justify;
+            max-width: 700px;
+        }
+
+        @media (min-width: 768px) {
+            .destination {
+                flex-direction: row;
+                gap: 30px;
+                align-items: flex-start;
+            }
+
+            .destination img {
+                width: 50%;
+            }
+
+            .destination-text {
+                width: 50%;
+            }
+        }
+        .back-button {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            padding: 12px 25px;
+            background-color: #b85c38;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button a:hover {
+             background-color: #93452c;
+        }
+        .intro img {
+            width: auto;
+            max-width: 669px;   /* natural width of the image */
+            height: auto;       /* keep aspect ratio */
+            max-height: 446px;  /* natural height */
+            display: block;
+            margin: 30px auto;  /* center with vertical spacing */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .intro-container {
+            display: flex;
+            max-width: 900px;
+            margin: 40px auto;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .intro img {
+            width: auto;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .intro-text {
+            flex: 1;
+            color: #155e75;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Thailand</h1>
+    </header>
+
+    <section class="intro">
+        <div class="intro-container">
+            <img src="ban1.jpg" alt="Singapore skyline at night">
+            <div class="intro-text">
+                <h2>Welcome to Thailand</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="city-section">
+        <h2>Bangkok</h2>
+        <div class="destination">
+            <img src="ban2.jpg" alt="Grand Palace in Bangkok">
+            <div class="destination-text">
+                <h3>Grand Palace</h3>
+                <p>The Grand Palace in Bangkok is a dazzling architectural masterpiece and the heart of Thailand's royal heritage. Built in 1782, it served as the official residence of the Kings of Siam. Visitors are captivated by the intricate golden spires, stunning murals, and the sacred Emerald Buddha housed within Wat Phra Kaew.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="city-section">
+        <h2>Chiang Mai</h2>
+        <div class="destination">
+            <img src="ban3.jpg" alt="Doi Inthanon National Park">
+            <div class="destination-text">
+                <h3>Doi Inthanon National Park</h3>
+                <p>Known as "The Roof of Thailand," Doi Inthanon National Park is home to the country’s highest peak. It offers lush forests, stunning waterfalls, and peaceful pagodas. Perfect for nature lovers, the park also supports a diverse ecosystem of birds and flora, and offers unforgettable sunrise and sunset views.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="city-section">
+        <h2>Phuket</h2>
+        <div class="destination">
+            <img src="ban4.jpg" alt="Beach in Phuket Island">
+            <div class="destination-text">
+                <h3>Phuket Island</h3>
+                <p>Phuket is Thailand’s largest island, known for its soft sandy beaches, crystal-clear waters, and lively atmosphere. Whether you're into snorkeling, beach bars, island hopping, or visiting temples like Wat Chalong, Phuket has something for everyone—from backpackers to luxury seekers.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="back-button">
+        <a href="country.html">← Back to the Page</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Choose Country</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0e0e10, #1f1f22);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .box {
+      background-color: #16161a;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+      max-width: 350px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      color: #00bfff;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .country-button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 15px 0;
+      background: #00bfff;
+      color: #0e0e10;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 12px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: transform 1s ease, background 0.3s ease;
+    }
+
+    .country-button:hover {
+      background: #009acd;
+      transform: scale(1.05);
+    }
+
+    .number-badge {
+      background-color: #ffffff;
+      color: #00bfff;
+      font-weight: bold;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      font-size: 16px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #ffffff;
+      font-size: 14px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .back-link:hover {
+      color: #00bfff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>🌏 Choose Country</h2>
+
+    <a class="country-button" href="submit.html">
+      <span class="number-badge">1</span> Japan
+    </a>
+
+    <a class="country-button" href="submit.html">
+      <span class="number-badge">2</span> Thailand
+    </a>
+
+    <a class="country-button" href="submit.html">
+      <span class="number-badge">3</span> Singapore
+    </a>
+
+    <a class="country-button" href="submit.html">
+      <span class="number-badge">4</span> China
+    </a>
+
+    <a class="back-link" href="country.html">Back to the page</a>
+  </div>
+</body>
+</html>

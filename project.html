@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Travel Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0e0e10, #1f1f22);
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      /* position: sticky; */
+      top: 0;
+      background-color: #0e0e10;
+      z-index: 10;
+      box-shadow: 0 2px 6px rgba(0, 191, 255, 0.1);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #00bfff;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #00bfff;
+      color: #0e0e10;
+    }
+
+    .section {
+      background-color: #16161a;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+      max-width: 900px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .section:hover {
+      transform: scale(1.01);
+      transition: transform 0.3s ease;
+    }
+
+    h2 {
+      color: #00bfff;
+      margin-bottom: 15px;
+    }
+
+    p, ul {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+      list-style-type: square;
+    }
+
+    .sample {
+      background-color: #222;
+      padding: 15px;
+      border-left: 4px solid #00bfff;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 30px auto;
+      max-width: 900px;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Travel Agency</h1>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="country.html">Country</a></li>
+        <li><a href="safty.html">Safety</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="section">
+    <p>Welcome to Happy Travel Agency — your gateway to unforgettable journeys! We specialize in tailored travel experiences, bringing you closer to the places you dream about. Whether you’re after a beach escape, a cultural adventure, or a luxury getaway, we make planning easy and exciting.</p>
+    <p>We handle every detail so you can focus on the joy of exploring the world. Let’s plan your perfect trip together!</p>
+  </div>
+
+  <div class="section">
+    <h2>📋 Step 1: Personalized Consultation</h2>
+    <p>We begin by understanding your travel goals:</p>
+    <ul>
+      <li>Preferred destination(s) and travel dates</li>
+      <li>Trip purpose: leisure, honeymoon, business, etc.</li>
+      <li>Budget range and travel style</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧭 Step 2: Tailored Itinerary Design</h2>
+    <p>We build a custom plan that includes:</p>
+    <ul>
+      <li><strong>Transport:</strong> Flights, airport transfers, local rides</li>
+      <li><strong>Stay:</strong> Hotels, resorts, check-in/check-out times</li>
+      <li><strong>Activities:</strong> Sightseeing, tours, downtime</li>
+      <li><strong>Dining:</strong> Recommended local cuisine and spots</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>💰 Step 3: Transparent Cost Summary</h2>
+    <p>You’ll receive a clear breakdown of what’s included:</p>
+    <ul>
+      <li>Flights, accommodation, and tours</li>
+      <li>Travel insurance and service fees</li>
+      <li>Exclusions (like personal expenses or meals not listed)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🌍 Step 4: Travel Tips & Guidance</h2>
+    <p>We provide essential travel prep information:</p>
+    <ul>
+      <li>Passport & visa requirements</li>
+      <li>Currency exchange tips</li>
+      <li>Vaccination & health protocols</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>✅ Step 5: Booking & Confirmation</h2>
+    <p>Once you approve the plan, we secure all bookings and send you:</p>
+    <ul>
+      <li>Flight and hotel confirmations</li>
+      <li>Tour vouchers and itinerary</li>
+      <li>Emergency contacts and travel support details</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🤝 Step 6: Support While You Travel</h2>
+    <p>We stay connected throughout your journey. If you need help, updates, or assistance — we're just a message away!</p>
+  </div>
+
+  <div class="section">
+    <h2>🗓️ Sample Travel Itinerary</h2>
+    <div class="sample">
+      <p>
+        <strong>Day 1:</strong> Arrival and airport pickup. Hotel check-in and welcome dinner.<br>
+        <strong>Day 2:</strong> Morning city tour and visit to historic landmarks.<br>
+        <strong>Day 3:</strong> Full-day island excursion with snorkeling.<br><br>
+        Total Cost: <strong>$2,400</strong> (includes accommodation, tours, and transport. Meals and personal shopping not included).
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Happy Travel Agency. Designed for dreamers. Built for travelers.
+  </footer>
+</body>
+</html>

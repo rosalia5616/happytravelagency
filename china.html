@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Travel Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #fffaf0; /* ivory */
+            color: #2e1a1a; /* rich dark */
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background-color: #9a031e; /* traditional deep red */
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #fcbf49; /* gold */
+        }
+
+        .intro img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .city-section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fbe8c9; /* soft goldish background */
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(46, 26, 26, 0.1);
+        }
+
+        .city-section h2 {
+            color: #9a031e;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .destination {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .destination img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(46, 26, 26, 0.1);
+        }
+
+        .destination h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #2e1a1a;
+        }
+
+        .destination p {
+            text-align: justify;
+            max-width: 700px;
+        }
+
+        @media (min-width: 768px) {
+            .destination {
+                flex-direction: row;
+                gap: 30px;
+                align-items: flex-start;
+            }
+
+            .destination img {
+                width: 50%;
+            }
+
+            .destination-text {
+                width: 50%;
+            }
+        }
+
+        .back-button {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            padding: 12px 25px;
+            background-color: #9a031e;
+            color: #fffaf0;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(46, 26, 26, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button a:hover {
+            background-color: #720215;
+        }
+        .intro img {
+            width: auto;
+            max-width: 669px;   /* natural width of the image */
+            height: auto;       /* keep aspect ratio */
+            max-height: 446px;  /* natural height */
+            display: block;
+            margin: 30px auto;  /* center with vertical spacing */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .intro-container {
+            display: flex;
+            max-width: 900px;
+            margin: 40px auto;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .intro img {
+            width: auto;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .intro-text {
+            flex: 1;
+            color: #155e75;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>China</h1>
+    </header>
+
+    <section class="intro">
+        <div class="intro-container">
+            <img src="china1.jpg" alt="Singapore skyline at night">
+            <div class="intro-text">
+                <h2>Welcome to China</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="city-section">
+        <h2>Forbidden City</h2>
+        <div class="destination">
+            <img src="china2.jpg" alt="The Forbidden City in Beijing">
+            <div class="destination-text">
+                <h3>Historic Imperial Palace</h3>
+                <p>The Forbidden City in Beijing is a vast palace complex that served as the home of emperors and their households for nearly 500 years. With its stunning architecture and rich history, it’s a must-see for anyone exploring China's cultural heritage.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="city-section">
+        <h2>Great Wall of China</h2>
+        <div class="destination">
+            <img src="china3.jpg" alt="The Great Wall winding through mountains">
+            <div class="destination-text">
+                <h3>Wonder of the World</h3>
+                <p>The Great Wall of China stretches over 13,000 miles and is one of the most iconic structures in the world. Walking along its ancient stones offers breathtaking views and a profound sense of history and endurance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="city-section">
+        <h2>Local Chinese Market</h2>
+        <div class="destination">
+            <img src="china4.jpg" alt="A busy Chinese street market with food and goods">
+            <div class="destination-text">
+                <h3>Vibrant Daily Life</h3>
+                <p>Experience the sights, sounds, and tastes of a local Chinese market. From fresh produce and sizzling street food to handmade crafts and everyday essentials, markets are a vibrant window into daily life in China.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="back-button">
+        <a href="country.html">← Back to the Page</a>
+    </div>
+
+</body>
+</html>

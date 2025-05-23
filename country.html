@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Country Gallery</title>
+  <link rel="preload" href="photo_2025-05-15_15-39-04.jpg" as="image">
+  <link rel="preload" href="photo_2025-05-15_15-44-26.jpg" as="image">
+  <link rel="preload" href="photo_2025-05-15_15-53-19.jpg" as="image">
+  <link rel="preload" href="photo_2025-05-15_15-51-40.jpg" as="image">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e10;
+      color: #ffffff;
+      font-size: clamp(12px, 2vw, 16px);
+      text-align: center;
+    }
+
+    h1 {
+      color: #00bfff;
+      margin-top: 20px;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    a.country {
+      width: 200px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a.country img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    a.country img:hover {
+      transform: scale(1.05);
+    }
+
+    a.country figcaption p {
+      margin: 5px 0;
+    }
+
+    .choose-country {
+      margin: 40px 0 60px;
+    }
+
+    .choose-country a {
+      display: inline-block;
+      background-color: #00bfff;
+      color: #0e0e10;
+      padding: 12px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .choose-country a:hover {
+      background-color: #009acd;
+    }
+     .container-eg-btn-3 {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto 10px;
+      padding: .5em;
+      line-height: normal;
+    }
+    .container-eg-btn-3 .button {
+      color: #fff;
+      margin: 20px;
+      padding: 12px 15px;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      transition: .3s;
+      z-index: 1;
+      background: #3aaeff;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    .container-eg-btn-3 .button-1:hover {
+      box-shadow: 0 0.6em 0.5em -0.4em #fa4343;
+      transform: translateY(-0.25em);
+      background: #fa4343;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌏 Destinations we serve</h1>
+
+  
+    <h3>Explore Country First?</h3>
+
+  <div class="image-gallery">
+    <a class="country" href="japan.html">
+      <img src="kkt.jpg" alt="Skyline of Tokyo, Japan">
+      <figcaption>
+        <p>Japan</p>
+      </figcaption>
+    </a>
+
+    <a class="country" href="bangkok.html">
+      <img src="ttk.jpg " alt="Bangkok, Thailand cityscape">
+      <figcaption>
+        <p>Thailand</p>
+      </figcaption>
+    </a>
+
+    <a class="country" href="singapore.html">
+      <img src="jk.jpg" alt="Downtown Singapore">
+      <figcaption>
+        <p>Singapore</p>
+      </figcaption>
+    </a>
+
+    <a class="country" href="china.html">
+      <img src= "tt.jpg" alt="Beijing, China view">
+      <figcaption>
+        <p>China</p>
+      </figcaption>
+    </a>
+  </div>
+
+  <!-- Choose Country Section -->
+  <div class="choose-country">
+    <h2>Interested?</h2>
+    <a href="explore.html">Choose Country</a>
+</div>
+<div class="container-eg-btn-3">
+      <a  class="button button-1" href="project.html">← Back to Main Page</a>
+  </div>
+
+</body>
+</html>
